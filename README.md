@@ -5,6 +5,10 @@ custom terminal for window
 - copy and paste next code
 - close and open your terminal
 
+### Preview
+
+![screenShoot](./screenShoot.png)
+
 ```bash
 
 export PS1="\[\e[33m\]{ \u }\[\e[m\] \[\e[32m\]\T\[\e[m\] \[\e[36m\]\W\[\e[m\] \[\e[35m\]\`parse_git_branch\`\[\e[m\]\[\e[31m\]\`nonzero_return\`\[\e[m\] "
